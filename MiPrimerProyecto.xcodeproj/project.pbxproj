@@ -42,6 +42,7 @@
 			children = (
 				DA024FE52063B7AB0098B61A /* MiPrimerProyecto */,
 				DA024FE42063B7AB0098B61A /* Products */,
+				DA024FFB2063BF050098B61A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -65,6 +66,13 @@
 				DA024FED2063B7AB0098B61A /* MiPrimerProyecto.xcdatamodeld */,
 			);
 			path = MiPrimerProyecto;
+			sourceTree = "<group>";
+		};
+		DA024FFB2063BF050098B61A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -100,6 +108,14 @@
 					DA024FE22063B7AB0098B61A = {
 						CreatedOnToolsVersion = 9.0.1;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 0;
+							};
+							com.apple.Maps.iOS = {
+								enabled = 0;
+							};
+						};
 					};
 				};
 			};
