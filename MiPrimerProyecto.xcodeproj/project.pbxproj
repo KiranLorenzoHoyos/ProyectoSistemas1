@@ -13,6 +13,7 @@
 		DA024FEF2063B7AB0098B61A /* MiPrimerProyecto.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = DA024FED2063B7AB0098B61A /* MiPrimerProyecto.xcdatamodeld */; };
 		DA024FF12063B7AB0098B61A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DA024FF02063B7AB0098B61A /* Assets.xcassets */; };
 		DA024FF42063B7AB0098B61A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA024FF22063B7AB0098B61A /* LaunchScreen.storyboard */; };
+		DAED7E1D2073AD3B00B12BE4 /* VCRegistreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAED7E1C2073AD3B00B12BE4 /* VCRegistreViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		DA024FF02063B7AB0098B61A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DA024FF32063B7AB0098B61A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DA024FF52063B7AB0098B61A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DAED7E1C2073AD3B00B12BE4 /* VCRegistreViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VCRegistreViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +42,7 @@
 		DA024FDA2063B7AB0098B61A = {
 			isa = PBXGroup;
 			children = (
+				DAED7E1C2073AD3B00B12BE4 /* VCRegistreViewController.swift */,
 				DA024FE52063B7AB0098B61A /* MiPrimerProyecto */,
 				DA024FE42063B7AB0098B61A /* Products */,
 				DA024FFB2063BF050098B61A /* Frameworks */,
@@ -157,6 +160,7 @@
 			files = (
 				DA024FEF2063B7AB0098B61A /* MiPrimerProyecto.xcdatamodeld in Sources */,
 				DA024FE92063B7AB0098B61A /* ViewController.swift in Sources */,
+				DAED7E1D2073AD3B00B12BE4 /* VCRegistreViewController.swift in Sources */,
 				DA024FE72063B7AB0098B61A /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
